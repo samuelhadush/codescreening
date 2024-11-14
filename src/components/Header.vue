@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HeaderMenu from './ui/HeaderMenu.vue';
+// import HeaderMenu from './ui/HeaderMenu.vue';
 </script>
 
 <template>

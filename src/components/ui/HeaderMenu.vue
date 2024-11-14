@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { Icon } from '@iconify/vue'
 import { ref } from 'vue'
 import {
   MenubarContent,
@@ -7,16 +6,11 @@ import {
   MenubarMenu,
   MenubarPortal,
   MenubarRoot,
-  MenubarSubContent,
   MenubarTrigger,
 } from 'radix-vue'
 
 const currentMenu = ref('')
-const person = ref('pedro')
-function handleClick() {
-  // eslint-disable-next-line no-alert
-  alert('hello!')
-}
+
 </script>
 
 <template>

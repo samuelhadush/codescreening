@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import Header from './components/Header.vue';
-import HelloWorld from './components/HelloWorld.vue'
-import TopBilledCast from './components/topBilledCast/TopBilledCast.vue';
+// import TopBilledCast from './components/topBilledCast/TopBilledCast.vue';
 </script>
 
 <template>
@@ -552,6 +551,5 @@ import TopBilledCast from './components/topBilledCast/TopBilledCast.vue';
 
     </div>
 
-    <HelloWorld msg="Vite + Vue" />
   </div>
 </template>
