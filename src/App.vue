@@ -11,7 +11,7 @@ import TopBillingCastSection from './components/TopBillingCastSection.vue';
 </script>
 
 <template>
-  <div class="flex w-full h-full flex-col ">
+  <div class="flex max-w-screen overflow-hidden w-full h-full flex-col ">
     <Header />
     <!-- nav bar -->
     <NavBar />
@@ -20,11 +20,11 @@ import TopBillingCastSection from './components/TopBillingCastSection.vue';
     <HeroSection />
 
 
-    <div class="bg-white">
+    <div class="bg-white pb-20 md:pb-0">
 
-      <div class=" flex items-start gap-x-7 justify-start px-10 py-8 w-full max-w-[1400px]">
+      <div class=" flex items-start gap-x-7 md:flex-row flex-col justify-start px-4 py-6 md:px-10  md:py-8 w-full max-w-[1400px]">
 
-        <div class=" relative  ">
+        <div class=" relative w-full ">
 
           <!-- top billed cast -->
           <TopBillingCastSection />
@@ -49,7 +49,7 @@ import TopBillingCastSection from './components/TopBillingCastSection.vue';
 
         </div>
 
-        <div class="min-w-[260px] text-black w-[260px] flex flex-col">
+        <div class="md:min-w-[260px] text-black md:w-[260px] w-full flex flex-col">
 
           <div class="flex gap-x-4 items-center mt-24 mb-5">
             <span class="text-black">
@@ -87,6 +87,58 @@ import TopBillingCastSection from './components/TopBillingCastSection.vue';
 
 
     </div>
+    <footer class="bg-background flex flex-col justify-center gap-y-8 w-full  px-4 py-20 text-foreground">
+        <nav class=" flex md:flex-row flex-col w-full md:mx-auto justify-start items-start gap-y-4 md:gap-x-20" >
+          <div class=" flex md:w-1/3 md:items-end md:gap-y-8 flex-col md:justify-between mb-10">
+            <img class="hidden md:block" src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" alt="The Movie Database (TMDB)" width="130" height="94">
+  
+              <a class="rounded-lg h-fit bg-white text-[#235ea7] font-semibold text-lg px-8 py-4" href="/signup">Join the Community</a>
+          </div>
+  
+          <div class=" flex  md:flex-row gap-x-8 flex-col w-full  justify-start items-start gap-y-4" >
+
+            <div class="flex flex-col gap-y-2">
+              <h3 class="text-lg font-bold">The Basics</h3>
+              <ul>
+                <li><a href="/about">About TMDB</a></li>
+                <li><a href="/about/staying-in-touch">Contact Us</a></li>
+                <li><a href="/talk">Support Forums</a></li>
+                  <li><a href="https://developer.themoviedb.org/docs" target="_blank">API</a></li>
+                <li><a href="https://status.themoviedb.org/" target="_blank" rel="noopener">System Status</a></li>
+              </ul>
+            </div>
+
+            <div class="flex flex-col gap-y-2">
+              <h3 class="text-lg font-bold">Get Involved</h3>
+              <ul>
+                <li><a href="/bible"><span class="glyphicons glyphicons-asterisk"></span> Contribution Bible</a></li>
+                <li><a href="/movie/new">Add New Movie</a></li>
+                <li><a href="/tv/new">Add New TV Show</a></li>
+              </ul>
+            </div>
+            <div class="flex flex-col gap-y-2">
+              <h3 class="text-lg font-bold">Community</h3>
+              <ul>
+                <li><a href="/documentation/community/guidelines">Guidelines</a></li>
+                <li><a href="/discuss">Discussions</a></li>
+                <li><a href="/leaderboard">Leaderboard</a></li>
+              </ul>
+            </div>
+            <div class="flex flex-col gap-y-2">
+              <h3 class="text-lg font-bold">Legal</h3>
+              <ul>
+                <li><a href="/terms-of-use">Terms of Use</a></li>
+                <li><a href="/api-terms-of-use">API Terms of Use</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/dmca-policy">DMCA Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+        <section class=" self-center ">Build 85e6c70 (8179)</section>
+      </footer>
 
   </div>
+
 </template>

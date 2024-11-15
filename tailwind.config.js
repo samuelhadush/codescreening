@@ -29,7 +29,7 @@ module.exports = {
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "#032541",
-        foreground: "hsl(var(--foreground))",
+        foreground: "#fff",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -51,8 +51,8 @@ module.exports = {
           foreground: "hsl(var(--accent-foreground))",
         },
         popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
+          DEFAULT: "#fff",
+          foreground: "#0000001a",
         },
         card: {
           DEFAULT: "hsl(var(--card))",

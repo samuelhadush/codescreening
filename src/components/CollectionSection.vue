@@ -1,7 +1,7 @@
 <template>
-    <section class="flex flex-col mt-5 py-5 border-t border-gray-200 w-full ">
+    <section class="flex flex-col -ml-4 md:mt-5 py-5 border-t border-gray-200 w-full ">
         <div
-            class=" rounded-xl overflow-hidden h-[258px]  relative w-full object-cover bg-[url('https://media.themoviedb.org/t/p/w1440_and_h320_multi_faces/sxyF4lVkEvOLVzr8jOF5K5nrMh3.jpg')]">
+            class=" md:rounded-xl overflow-hidden md:h-[258px]  relative w-[100vw] md:w-full bg-cover bg-[url('https://media.themoviedb.org/t/p/w1440_and_h320_multi_faces/sxyF4lVkEvOLVzr8jOF5K5nrMh3.jpg')]">
             <div class=" p-10 relative w-full h-full  bg-collection-gradient ">
                 <div class="flex flex-col items-start justify-center h-full text-white ">
                     <h2 class="text-2xl font-sans font-semibold ">Part of the Guardians of the Galaxy Collection</h2>

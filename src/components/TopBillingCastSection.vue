@@ -3,7 +3,7 @@
         <h3 class="font-semibold text-xl  ">Top Billed Cast</h3>
 
         <!-- actors profile slider -->
-        <div class="w-[calc(100vw-80px-268px)] max-w-[calc(100vw-80px-268px)] flex items-start gap-x-2 overflow-x-auto">
+        <div class="w-full md:w-[calc(100vw-80px-268px)] md:max-w-[calc(100vw-80px-268px)] flex items-start gap-x-2 overflow-x-auto">
             <!-- <TopBilledCast /> -->
 
             <div class="card  w-[140px] min-w-[140px] border border-slate-400 rounded-lg overflow-hidden text-black">
